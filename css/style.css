@@ -150,26 +150,31 @@ a {
     text-align: center;
     font-weight: 300;
 }
+
 #testimonio h4 {
     padding-bottom: 40px;
-    font-size:50px ;
+    font-size: 50px;
 
 }
+
 #testimonio img {
     border-radius: 50%;
     max-height: 140px;
     padding-bottom: 20px;
 
 }
+
 #testimonio p {
     width: 70%;
     margin: 0 auto;
-    
+
 }
-#testimonio .customer{
+
+#testimonio .customer {
     padding-top: 20px;
 
 }
+
 /*Features*/
 #features {
     background: white;
@@ -177,6 +182,7 @@ a {
     padding-bottom: 80px;
     text-align: center;
 }
+
 .features-box {
     float: left;
     width: 33%;
@@ -204,13 +210,60 @@ a {
 .about-image img {
     width: 80%;
 }
+
 .about-text {
     float: right;
     width: 50%;
     padding: 150px 50px;
 }
+
 .about-text p {
     padding-top: 20px;
 }
 
-/*Footer*
+/*Footer*/
+#mainfooter {
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*formulario de contacto*/
+.form {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+}
+
+.form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: .4em;
+}
+
+.form-input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 16px;
+    outline: none;
+    border: none;
+    border: 1px solid;
+    border-radius: 0.2em;
+
+}
+.form-input-message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta {
+    font-family: inherit;
+}
