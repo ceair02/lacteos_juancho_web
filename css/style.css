@@ -1,5 +1,6 @@
 /*Utility Class*/
 .btn {
+    font-family: 'Mali', cursive; /* Albano */
     background-color: rgb(42, 128, 179);
     color: white;
     display: inline-block;
@@ -61,6 +62,39 @@
 
 /*About*/
 #about {}
+
+
+/* InicioAlbano  */
+/* Creo clases para la Tipografía Mali de Google Fonts */
+
+.display-1{
+    font-family: 'Mali', cursive;
+}
+
+.sub1{
+    font-family: 'Mali', cursive;
+
+}
+
+.display-2{
+    font-family: 'Mali', cursive;
+
+}
+
+.display-3{
+    font-family: 'Mali', cursive;
+
+}
+.sub2{
+    font-family: 'Mali', cursive;
+}
+
+.sub3{
+    font-family: 'Mali', cursive;
+}
+
+/* Fin Albano */
+
 
 .display-2 {
     margin-bottom: 0%;
@@ -133,6 +167,7 @@
 }
 
 #testimonio .customer {
+    font-family: 'Mali', cursive; /* Albano */
     padding-top: 10px;
 }
 
@@ -150,12 +185,14 @@
 }
 
 .form-title {
+    font-family: 'Mali', cursive; /* Albano */
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
 }
 
 .form-input {
+    font-family: 'Mali', cursive; /* Albano */
     font-family: inherit;
     font-size: 15px;
     padding: .8em 16px;
@@ -166,12 +203,14 @@
 }
 
 .form-input-message {
+    font-family: 'Mali', cursive; /* Albano */
     resize: none;
     padding: 1.8em 1em;
     margin-bottom: .5em;
 }
 
 .form-cta {
+    font-family: 'Mali', cursive; /* Albano */
     font-family: inherit;
     font-size: 1rem;
     background-color: rgb(42, 128, 179);
