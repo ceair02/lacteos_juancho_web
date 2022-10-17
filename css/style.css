@@ -1,6 +1,7 @@
 /*Utility Class*/
 .btn {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     background-color: rgb(42, 128, 179);
     color: white;
     display: inline-block;
@@ -12,13 +13,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 16% 13% 13% 22% 17% 17% 2%;
+    grid-template-rows: 15% 12% 10% 21% 19% 7% 15% 3%;
     /* background-color: blue;*/
 }
 
 .grid-container>* {
     /* background-color: aquamarine;*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     justify-content: center;
     align-items: center;
 }
@@ -44,7 +45,6 @@
 #main-header p {
     padding-bottom: 50 px;
 }
-
 /*Description*/
 #description {
     padding: 2%;
@@ -67,29 +67,30 @@
 /* InicioAlbano  */
 /* Creo clases para la Tipografía Mali de Google Fonts */
 
-.display-1{
+.display-1 {
     font-family: 'Mali', cursive;
 }
 
-.sub1{
-    font-family: 'Mali', cursive;
-
-}
-
-.display-2{
+.sub1 {
     font-family: 'Mali', cursive;
 
 }
 
-.display-3{
+.display-2 {
     font-family: 'Mali', cursive;
 
 }
-.sub2{
+
+.display-3 {
+    font-family: 'Mali', cursive;
+
+}
+
+.sub2 {
     font-family: 'Mali', cursive;
 }
 
-.sub3{
+.sub3 {
     font-family: 'Mali', cursive;
 }
 
@@ -167,8 +168,15 @@
 }
 
 #testimonio .customer {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     padding-top: 10px;
+}
+
+/*Video youtube*/
+#video iframe {
+    width: 100%;
+    height: auto;
 }
 
 /*formulario de contacto*/
@@ -185,14 +193,16 @@
 }
 
 .form-title {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
 }
 
 .form-input {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     font-family: inherit;
     font-size: 15px;
     padding: .8em 16px;
@@ -203,14 +213,16 @@
 }
 
 .form-input-message {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     resize: none;
     padding: 1.8em 1em;
     margin-bottom: .5em;
 }
 
 .form-cta {
-    font-family: 'Mali', cursive; /* Albano */
+    font-family: 'Mali', cursive;
+    /* Albano */
     font-family: inherit;
     font-size: 1rem;
     background-color: rgb(42, 128, 179);
@@ -227,14 +239,15 @@
 @media (min-width: 750px) and (max-width: 990px) {
     .grid-container {
         grid-template-columns: 50% 50%;
-        grid-template-rows: 18% 17% 24% 18% 20% 3%;
+        grid-template-rows: 18% 17% 24% 18% 10% 20% 3%;
     }
 
     #main-header,
-    #mainfooter,
+    #footer,
     #features,
     #testimonio,
-    #contacto {
+    #contacto,
+    #video {
         grid-column: 1 / 3;
     }
 
@@ -260,6 +273,11 @@
         width: 95%;
         margin: 0 auto;
         font-size: 16px;
+    }
+
+    #video {
+        padding-top: 15px;
+
     }
 
 
@@ -293,13 +311,14 @@
 @media (min-width: 990px) {
     .grid-container {
         grid-template-columns: 70% 30%;
-        grid-template-rows: 20% 13% 16% 30% 18% 3%;
+        grid-template-rows: 20% 13% 12% 30% 15% 18% 3%;
     }
 
     #main-header,
-    #mainfooter,
+    #footer,
     #features,
-    #contacto {
+    #contacto,
+    #video {
         grid-column: 1 / 3;
 
     }
@@ -311,11 +330,11 @@
     }
 
     #testimonio h4 {
-        padding-top: 18%
+        padding-top: 6%
     }
 
     #testimonio img {
-        max-height: 200px;
+        max-height: 90px;
     }
 
     #testimonio p {
@@ -325,6 +344,18 @@
     .about-image img {
         width: 80%;
     }
+
+    #features img {
+        width: 50%;
+    }
+
+    #video {
+        padding-top: 60px;
+        width: 100%;
+        height: 100%;
+
+    }
+
 
 
 
