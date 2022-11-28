@@ -13,7 +13,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15% 12% 10% 21% 19% 7% 15% 3%;
+    grid-template-rows: 17% 12% 10% 21% 19% 7% 16% 2%;
     /* background-color: blue;*/
 }
 
@@ -31,11 +31,12 @@
     background-position: center;
     padding-top: auto;
 }
-.logo img{
+
+.logo img {
     width: 30%;
     float: right;
     padding-bottom: 10%;
- }
+}
 
 /*.logo {
     font-size: 32px;
@@ -309,11 +310,12 @@
         border: 1px solid;
         border-radius: 0.2em;
     }
-    .logo img{
+
+    .logo img {
         width: 20%;
         float: right;
         padding-bottom: 10%;
-     }
+    }
 
 }
 
@@ -366,13 +368,86 @@
 
     }
 
-    .logo img{
-       width: 20%;
-       float: right;
-       padding-bottom: 10%;
+    .logo img {
+        width: 20%;
+        float: right;
+        padding-bottom: 10%;
     }
 
 
+    :root {
+        --color_text-primary: #AB29CA;
+        --color_text-secundary: #282828;
+        --color_secundary: #9A00BF;
 
+    }
 
 }
+
+/*Menu Hamburguesa*/
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family:"cursive";
+
+}
+/*Navigation*/
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar-btn {
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(252, 250, 250, 0.95);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+
+}
+.nav-menu li a {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+,.nav-menu li a.active, .nav-menu li a:hover {
+    color: rgb(248, 8, 8);
+    transition: .3s;
+}
+#check {
+    display: none;
+}
+#check:checked ~ .nav-menu {
+    height: 100vh;    
+}
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+
+
+
+
+
